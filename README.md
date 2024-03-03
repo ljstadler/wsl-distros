@@ -2,7 +2,7 @@
 
 # alpine-wsl
 
-## Script to import latest Alpine Mini Root Filesystem version to WSL
+## Script to import Alpine to WSL
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
