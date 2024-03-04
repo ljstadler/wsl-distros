@@ -11,5 +11,5 @@
 ## Usage
 
 ```
-irm https://raw.githubusercontent.com/LJS243/wsl-distros/main/wsl-distros.ps1 | iex
+irm https://raw.githubusercontent.com/ljstadler/wsl-distros/main/wsl-distros.ps1 | iex
 ```
