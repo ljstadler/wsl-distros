@@ -30,7 +30,7 @@ switch ($distro) {
                     $password = Read-Host "Password" -MaskInput
                     $rpassword = Read-Host "Retype Password" -MaskInput
                 } until ($password -eq $rpassword)
-                $timezone = (Invoke-RestMethod -Uri "https://cf.ljstadler.workers.dev/").timezone
+                $timezone = (Invoke-RestMethod "http://ip-api.com/json").timezone
                 wsl -d Alpine -e ash -c @"
                     apk upgrade -U &&
                     apk add alpine-base doas &&
